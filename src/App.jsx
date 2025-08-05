@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./app.module.css";
+import styles from "./styles/app.module.css";
 import logo from "/Stranger_Things_logo.png";
 
 const perguntas = [
