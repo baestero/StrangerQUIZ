@@ -15,8 +15,28 @@ html {
   --radius: 0.2rem;
 }
 
+img {
+  max-width: 100%;
+}
+
+input[type="radio"] {
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  width: 20px;
+  outline: none;
+  border: none;
+  accent-color: red;
+}
+
+* input[type="radio"]:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 body {
   margin: 1.5rem;
+  background: black;
+  color: white;
 }
 
 body,
@@ -54,6 +74,17 @@ label {
   margin-bottom: 0.25rem;
 }
 
+input[type="radio"] {
+  outline: none;
+  border: none;
+  accent-color: red;
+}
+
+* input[type="radio"]:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -85,8 +116,9 @@ button {
   border: none;
   border-radius: var(--radius);
   transition: 0.1s;
-  background: var(--color);
-  color: var(--color-dark);
+  background: red;
+  color: white;
+  margin-top: 1rem;
   padding: 0.8rem 1.6rem;
 }
 
