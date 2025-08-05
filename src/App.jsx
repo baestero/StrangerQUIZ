@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./app.module.css";
+import logo from "/Stranger_Things_logo.png";
 
 const perguntas = [
   {
@@ -57,7 +58,7 @@ const App = () => {
 
   return (
     <>
-      <img src="/Stranger_Things_logo.png" alt="" />
+      <img src={logo} alt="" />
       {contador < perguntas.length ? (
         <form onSubmit={handleSubmit}>
           <p>{pergunta.pergunta}</p>
